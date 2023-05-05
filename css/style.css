@@ -65,8 +65,8 @@ section#cards {
     height: 100px;
 }
 .card-content > * {
-    line-height: 20px;
-    margin: 10px;
+    line-height: 11px;
+    margin: 16.75px;
 }
 h4 {
     font-weight: 400;
