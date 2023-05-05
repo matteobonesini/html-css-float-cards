@@ -1,0 +1,31 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+html {
+    font-family: 'Fredoka', sans-serif;
+}
+.pink-text {
+    color: #e4316f;
+}
+.bg-color-card {
+    background-color: #0f0e17;
+}
+.blue-email-text {
+    color: #1c83bf;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+h1 {
+    padding: 40px;
+}
