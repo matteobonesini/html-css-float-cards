@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* GENERAL */
 html {
     font-family: 'Fredoka', sans-serif;
@@ -22,10 +23,38 @@ html {
     max-width: 1000px;
     margin: 0 auto;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+
+/* HEADER */
 header {
     text-align: center;
 }
 h1 {
     padding: 40px;
+}
+
+
+/* CARDS */
+section#cards {
+    margin-top: 50px;
+}
+.card {
+    height: 100px;
+    width: calc((100% / 3) - (40px / 3));
+    float: left;
+    margin-bottom: 30px;
+}
+.card:nth-child(3n+2) {
+    margin: 0 20px;
+}
+
+
+/* DEBUG */
+body section {
+    border: 5px dotted red;
 }
