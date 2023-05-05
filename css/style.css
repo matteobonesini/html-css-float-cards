@@ -13,6 +13,9 @@ html {
 .pink-text {
     color: #e4316f;
 }
+.white-text {
+    color: #fff;
+}
 .bg-color-card {
     background-color: #0f0e17;
 }
@@ -27,6 +30,9 @@ html {
     content: "";
     display: table;
     clear: both;
+}
+.float-left {
+    float: left;
 }
 
 
@@ -46,15 +52,22 @@ section#cards {
 .card {
     height: 100px;
     width: calc((100% / 3) - (40px / 3));
-    float: left;
     margin-bottom: 30px;
 }
 .card:nth-child(3n+2) {
     margin: 0 20px;
 }
-
-
-/* DEBUG */
-body section {
-    border: 5px dotted red;
+.card img {
+    height: 100px;
+}
+.card-content {
+    width: calc(100% - 100px);
+    height: 100px;
+}
+.card-content > * {
+    line-height: 20px;
+    margin: 10px;
+}
+h4 {
+    font-weight: 400;
 }
